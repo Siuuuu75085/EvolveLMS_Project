@@ -125,6 +125,7 @@ include("mainPart/header.php");
     </div>
   </div>
 </div>
+</div>
 <!-- Footer -------------->
 <?php
 include("mainPart/footer.php");

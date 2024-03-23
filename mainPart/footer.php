@@ -11,20 +11,20 @@
         <form>
           <div class="form-group">
             <!-- <i class="fas fa-user"></i> -->
-            <label for="Stuname" class="pl-2 font-weight-bold">Name</label>
-            <input type="text" class="form-control" placeholder="Name" name="Stuname" id="Stuname">
+            <label for="StuName" class="pl-2 font-weight-bold">Name</label>
+            <input type="text" class="form-control" placeholder="Name" name="StuName" id="StuName">
           </div>
           <div class="form-group">
-            <label for="StuEmail1">Email address</label>
+            <label for="StuEmail">Email address</label>
             <input type="email" class="form-control" 
-            id="StuEmail1"
+            id="StuEmail" name="StuEmail"
             aria-describedby="emailHelp">
             <small id="emailHelp" class="form-text
             text-muted"> We'll never share your email with anyone else.
             </small>
           </div>
-          <label for="Stupass" class="form-label">Password</label>
-              <input type="Stupass" id="Stupass" class="form-control" aria-describedby="passwordHelpBlock">
+          <label for="StuPass">Password</label>
+              <input type="StuPass" id="StuPass" class="form-control" aria-describedby="passwordHelpBlock">
               <div id="passwordHelpBlock" class="form-text">
                 Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
           </div>
@@ -33,7 +33,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Sign Up</button>
+        <button type="button" class="btn btn-primary" onclick="addStu()">Sign Up</button>
       </div>
     </div>
   </div>
@@ -62,8 +62,8 @@
             id="StuLoginMail"
             aria-describedby="emailHelp">
           </div>
-          <label for="StuLoginPass" class="form-label">Password</label>
-              <input type="StuLogpass" id="StuLogpass" class="form-control" placeholder="Password" name="StuLoginPass" aria-describedby="passwordHelpBlock">
+          <label for="StuLoginPass" class="pl-2 font-weight-bold">
+              <input type="StuLoginPass" id="StuLoginPass" class="form-control" placeholder="Password" name="StuLoginPass" aria-describedby="passwordHelpBlock">
               <div id="passwordHelpBlock" class="form-text">
                 Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
           </div>
@@ -101,7 +101,7 @@
             id="adminLoginMail"
             aria-describedby="emailHelp">
           </div>
-          <label for="adminLoginPass" class="form-label">Password</label>
+          <label for="adminLoginPass">Password</label>
               <input type="password" id="adminLoginPass" class="form-control" placeholder="Password" name="adminLoginPass" aria-describedby="passwordHelpBlock">
               <div id="passwordHelpBlock" class="form-text">
                 Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
@@ -123,3 +123,21 @@
     <small class="text-white">Copyright &copy; 2024 || Designed by E-Learning || <a href="#login" data-bs-toggle="modal" data-bs-target="#AdminLogin">Admin Login</a></small>
   </footer>
  <!------------------------END Footer------------------------------------->
+ 
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+<script src="js/all.min.js"></script>
+
+
+
+<script type="text/javascript" src="js/ajaxrequest.js"></script>
+
+
+</body>
+</html>
