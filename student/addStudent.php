@@ -1,6 +1,6 @@
 <?php
     include_once('../dbConnection.php');
-    if (isset($_POST['StuSignup']) && isset($_POST['StuName']) && isset($_POST['StuEmail'])&& isset($_POST['StuPass'])) {
+    if (isset($_POST['StuSignUp']) && isset($_POST['StuName']) && isset($_POST['StuEmail'])&& isset($_POST['StuPass'])) {
         # code...
 
         $StuName= $_POST['StuName'];
