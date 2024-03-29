@@ -38,10 +38,25 @@
       
         <a class="nav-link" href="ELearning.php">Home</a>
         <a class="nav-link" href="course.php">Courses</a>
+<<<<<<< HEAD
         <a class="nav-link" href="">My Profile</a>
         <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#StuLogin">Login</a>
         <a class="nav-link" href="">Logout</a>
         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#StuSignUp">SignUp</a>
+=======
+        <?php
+        session_start();
+        if(isset($_SESSION['is_login'])){
+          echo'
+          <a class="nav-link" href="#">My Profile</a>
+          <a class="nav-link" href="logout.php">Logout</a>'
+        } else {
+          echo'
+          <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#StuLogin">Login</a>
+          <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#StuSignUp">SignUp</a>'
+        }
+        ?>
+>>>>>>> dc12ad9 (init project)
         <a class="nav-link" href="">Feedback</a>
         <a class="nav-link" href="">Contact</a>
         StuLogin

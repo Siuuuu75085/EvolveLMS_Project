@@ -17,7 +17,11 @@
       <div class="modal-footer">
         <span id="successMsg"></span>
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+<<<<<<< HEAD
         <button type="button" class="btn btn-primary" onclick="addStu()">Sign Up</button>
+=======
+        <button type="button" class="btn btn-primary" onclick="addStu()" id="signup">Sign Up</button>
+>>>>>>> dc12ad9 (init project)
       </div>
     </div>
   </div>
@@ -55,6 +59,10 @@
 
       </div>
       <div class="modal-footer">
+<<<<<<< HEAD
+=======
+        <small id = "statusLogMsg"></small>
+>>>>>>> dc12ad9 (init project)
         <h6 class="position-absolute bottom-2 start-0">Don't have an account yet? <a href="#login" data-bs-toggle="modal" data-bs-target="#StuSignUp">Sign Up</a></h6>
         <!-- <a href="#login" data-bs-toggle="modal" data-bs-target="#StuSignUp">Don't have an account yet? Sign Up</a> -->
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
@@ -94,7 +102,11 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+<<<<<<< HEAD
         <button type="button" class="btn btn-primary" id="adminLoginBtn">Login</button>
+=======
+        <button type="button" class="btn btn-primary" id="adminLoginBtn" onclick= "checkAdminLogin()">Login</button>
+>>>>>>> dc12ad9 (init project)
       </div>
     </div>
   </div>
@@ -123,5 +135,11 @@
 <script type="text/javascript" src="js/ajaxrequest.js"></script>
 
 
+<<<<<<< HEAD
+=======
+<script type="text/javascript" src="js/adminajaxrequest.js"></script>
+
+
+>>>>>>> dc12ad9 (init project)
 </body>
 </html>

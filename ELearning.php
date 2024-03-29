@@ -12,10 +12,24 @@
   <div class="vid-content">
     <h1 class="my-content text-primary">Welcome to Evolve</h1>
     <small class="my-content text-primary">The next generation of learning</small><br>
+<<<<<<< HEAD
    <!-- <a href="#" class="btn btn-danger">Get Started</a> -->
         <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#StuLogin">
       Get Started
         </button>
+=======
+   <?php
+   if(!isset($_SESSION['is_login'])){
+    echo '<!-- <a href="#" class="btn btn-danger mt-3">Get Started</a> -->
+    <button type="button" class="btn btn-danger mt-3" data-bs-toggle="modal" data-bs-target="#StuLogin">
+  Get Started
+    </button>';
+   } else {
+    echo '<a class="btn btn-primary mt-3" href="#">My Profile</a>';
+   }
+
+   ?>
+>>>>>>> dc12ad9 (init project)
 </div>
 </div>
 <!------------------------------- End Video BackGround--------------------->
